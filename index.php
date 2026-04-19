@@ -36,8 +36,8 @@
 	    <th>GraduatedFrom</th>
 	    <th>Action</th>
 	  </tr>
-	  <?php $seeAllStudentRecords = seeAllApplicantRecords($pdo); ?>
-	  <?php foreach ($seeAllStudentRecords as $row) { ?>
+	  <?php $seeAllApplicants = seeAllApplicantRecords($pdo); ?>
+	  <?php foreach ($seeAllApplicants as $row) { ?>
 	  <tr>
 	  	<td><?php echo $row['ApplicantID']; ?></td>
 	  	<td><?php echo $row['FirstName']; ?></td>
