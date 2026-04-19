@@ -9,7 +9,7 @@
     <title>Register Applicant</title>
 </head>
 <body>
-    <h3>Welcome to the Student Management System. Input your details here to register</h3>
+    <h3>Welcome to the Data Engineering Application System. Input your details here to register</h3>
 	<form action="core/handleForm.php" method="POST">
 		<p><label for="FirstName">First Name</label> <input type="text" name="FirstName"></p>
 		<p><label for="LastName">Last Name</label> <input type="text" name="LastName"></p>
